@@ -1,8 +1,8 @@
 # FILE NAME: cyber_suite_new_user.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Marcelo Luciano
+# DATE: February 17, 2025
+# BRIEF DESCRIPTION: Create a function that will take inputs from the user and appropriately mirror them.
 
 
 
@@ -21,16 +21,16 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-
-
-
-
-
-
-
-
-
-
+def new_user():
+    name = input("Please enter your name: ")
+    uid = input("Please enter your user id: ")
+    password = input("Please enter your password: ")
+    print("")
+    print("Welcome, " + name + ". Your ID is " + uid + ".")
+    print("")
+    print("PASSWORD: ")
+    print("X"*len(password))
+new_user()
 ########### END YER CODE ABOVE THIS LINE ###########
     
 
@@ -80,8 +80,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 '''
 1. This project has a bit of a speed bump (converting the password to XXXXs). What was your thought process?
 
-
-
-
+Use string multiplication with the length of the password to convert.
 
 '''
